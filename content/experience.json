@@ -1,0 +1,197 @@
+{
+  "profile": {
+    "name": "Lawrence Berry",
+    "location": "Glasgow, UK",
+    "role": "Full-Stack Developer",
+    "seeking": "Senior / Staff / Lead — remote only",
+    "summary": "Full-stack web developer with 15+ years' experience delivering Ruby on Rails and JavaScript SaaS products, including 13 years as founding engineer of a geospatial mapping platform. Comfortable across the stack, from AWS infrastructure and CI/CD automation to client-facing delivery. Looking for a senior, staff or lead role owning a product long-term.",
+    "personal": "Outside of work: tinkering with hardware and software, climbing, travelling, learning new languages, cooking, and teaching my daughter to code."
+  },
+  "skills": {
+    "primary": [
+      { "name": "Ruby", "years": "10+", "icon": "ruby" },
+      { "name": "Rails", "years": "10+", "icon": "rails" },
+      { "name": "JavaScript", "years": "10+", "icon": "javascript" },
+      { "name": "AWS", "years": "10+", "icon": "aws" }
+    ],
+    "core": [
+      { "name": "TypeScript", "years": "10+", "icon": "typescript" },
+      { "name": "React.js", "years": "10+", "icon": "react" },
+      { "name": "Bash", "years": "10+", "icon": "bash" }
+    ],
+    "cloud": [
+      "EC2", "RDS", "Route53", "ElastiCache", "Lambda", "CloudWatch",
+      "API Gateway", "IAM", "WAF", "Systems Manager", "Secrets Manager", "Incident Manager"
+    ],
+    "database": [
+      { "name": "MySQL", "years": "10+", "icon": "mysql" },
+      { "name": "PostgreSQL", "years": "10+", "icon": "postgresql" },
+      { "name": "Redis", "years": "7", "icon": "redis" }
+    ],
+    "infra": [
+      { "name": "CloudFormation", "years": "5", "icon": "cloudformation" },
+      { "name": "Docker", "years": "5", "icon": "docker" },
+      { "name": "Vagrant", "years": "3", "icon": "vagrant" },
+      { "name": "Chef", "years": "3", "icon": "chef" }
+    ],
+    "testing": [
+      { "name": "RSpec", "years": "10+", "icon": "rspec" },
+      { "name": "Cucumber", "years": "10+", "icon": "cucumber" },
+      { "name": "Jest", "years": "3", "icon": "jest" },
+      { "name": "GitHub Actions", "years": "4", "icon": "githubactions" },
+      { "name": "Travis CI", "years": "3", "icon": "travisci" }
+    ],
+    "familiar": [
+      { "name": "C#/.NET", "icon": "dotnet" },
+      { "name": "Java", "icon": "java" },
+      { "name": "Python", "icon": "python" },
+      { "name": "Haskell", "icon": "haskell" },
+      { "name": "C", "icon": "c" },
+      { "name": "C++", "icon": "cpp" },
+      { "name": "Ada", "icon": "ada" }
+    ]
+  },
+  "timeline": [
+    {
+      "id": "early-years",
+      "type": "personal",
+      "date": "1990s",
+      "org": "Self-taught",
+      "role": "Early years",
+      "bullets": [
+        "Started coding at age 11.",
+        "Comfortable at the command line (MS-DOS) by age 12.",
+        "Ran Linux on my home system throughout my teens.",
+        "Provided informal IT support for the family business as a teenager, troubleshooting PCs and everyday technical problems."
+      ]
+    },
+    {
+      "id": "glasgow-uni",
+      "type": "education",
+      "date": "2002 – 2007",
+      "org": "University of Glasgow",
+      "orgUrl": "https://www.gla.ac.uk/",
+      "role": "B.Sc. Software Engineering",
+      "bullets": [
+        "Selected into the Software Engineering stream, capped at the top 20 students from the wider Computing Science intake."
+      ]
+    },
+    {
+      "id": "reuters",
+      "type": "work",
+      "date": "Jun 2006 – Sep 2006",
+      "org": "Reuters Group Plc.",
+      "orgUrl": "https://www.reuters.com/",
+      "role": "Security Analyst (Internship)",
+      "bullets": [
+        "Secured one of Reuters' 3 annual internship places, reserved for the top 3 students in Glasgow University's 20-place Software Engineering programme — one of the most sought-after placements in the class.",
+        "Built a training-tracking tool solo, deployed company-wide to monitor security-course completion for ISO certification."
+      ]
+    },
+    {
+      "id": "pexel",
+      "type": "work",
+      "date": "Oct 2006 – Sep 2011",
+      "org": "Pexel Ltd.",
+      "orgUrl": "https://www.pexel.co.uk/",
+      "role": "IT Manager / Lead Developer",
+      "bullets": [
+        "Promoted from Telemarketing Agent to IT Manager / Lead Developer in Jan 2008.",
+        "Delivered 100+ client projects for financial institutions, stock market index providers, and other blue-chip companies.",
+        "Recruited a 4-person development team, supporting growth in interviewer capacity from 12 to 120 seats.",
+        "Built a Rails/MySQL CATI platform, powering the 10x growth in interview capacity.",
+        "Acted as primary client and management technical liaison, handling queries and demonstrating platform capabilities."
+      ]
+    },
+    {
+      "id": "geome",
+      "type": "work",
+      "date": "Feb 2012 – Aug 2025",
+      "org": "Geo.me Solutions",
+      "orgUrl": "https://geo.me/",
+      "role": "Lead Developer",
+      "bullets": [
+        "Founding engineer on a Ruby on Rails / Google Maps API geospatial SaaS platform, growing with the company from MVP to a multi-client product over 13 years.",
+        "Owned full project delivery end-to-end, scaling from 8 to 40 concurrent client projects over 13 years.",
+        "Led a 3-person development team, shipping concurrent client projects over the platform's 13-year lifecycle.",
+        "Turned single-project clients Shell and BP into 10+ year multi-project accounts, alongside long-term clients BT and BUPA.",
+        "Cut deployment time in half using AWS automation, reducing deployment issues by roughly 80%.",
+        "Migrated legacy Rails views to dedicated React.js frontends, decoupling the UI layer from the backend."
+      ]
+    },
+    {
+      "id": "sabbatical",
+      "type": "personal",
+      "date": "Sep 2025 – Present",
+      "org": "Career Break",
+      "role": "Sabbatical",
+      "bullets": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "Shell Fuel Station Finder",
+      "url": "https://find.shell.com/",
+      "employer": "Geo.me Solutions",
+      "description": "Global Shell station locator — search, filtering and mapping across Shell's international network.",
+      "stack": ["Ruby on Rails", "Google Maps API", "React.js"]
+    },
+    {
+      "name": "Shell UK Service Stations",
+      "url": "https://www.shell.co.uk/shell-service-stations/find-a-shell-service-station.html",
+      "employer": "Geo.me Solutions",
+      "description": "UK-specific Shell service station finder embedded in shell.co.uk.",
+      "stack": ["Ruby on Rails", "Google Maps API", "React SSR"]
+    },
+    {
+      "name": "BP Station Finder",
+      "url": "https://www.bp.com/en_gb/united-kingdom/home/products-and-services/find-your-nearest-bp.html",
+      "employer": "Geo.me Solutions",
+      "description": "BP's UK nearest-station locator, live on bp.com.",
+      "stack": ["Ruby on Rails", "Google Maps API", "React SSR"]
+    },
+    {
+      "name": "Bupa Global Facilities Finder",
+      "url": "https://www.bupaglobal.com/en/facilities/finder",
+      "employer": "Geo.me Solutions",
+      "description": "Search tool for locating Bupa Global healthcare facilities worldwide.",
+      "stack": ["Ruby on Rails", "Google Maps API", "React.js"]
+    }
+  ],
+  "employers": [
+    { "name": "Geo.me", "url": "https://geo.me/" },
+    { "name": "Pexel Ltd.", "url": "https://www.pexel.co.uk/" }
+  ],
+  "clients": {
+    "featured": [
+      { "name": "Shell", "domain": "shell.com" },
+      { "name": "BP", "domain": "www.bp.com" },
+      { "name": "BT", "domain": "bt.com" },
+      { "name": "BUPA", "domain": "bupa.com" },
+      { "name": "FTSE Russell", "domain": "ftserussell.com" },
+      { "name": "IATA", "domain": "iata.org" }
+    ],
+    "other": [
+      { "name": "TNT", "domain": "tntsports.co.uk" },
+      { "name": "Barclays", "domain": "barclays.co.uk" },
+      { "name": "NatWest", "domain": "natwest.com" },
+      { "name": "Scottish Government", "domain": "gov.scot" },
+      { "name": "Openreach", "domain": "openreach.co.uk" },
+      { "name": "EE", "domain": "ee.co.uk" },
+      { "name": "AA", "domain": "theaa.com" },
+      { "name": "Jiffy Lube", "domain": "jiffylube.com" },
+      { "name": "Pennzoil", "domain": "pennzoil.com" },
+      { "name": "Precisely", "domain": "precisely.com" },
+      { "name": "VisitScotland", "domain": "visitscotland.com" },
+      { "name": "Dell", "domain": "dell.com" },
+      { "name": "HSBC", "domain": "hsbc.com" },
+      { "name": "Microsoft", "domain": "microsoft.com" },
+      { "name": "Visa", "domain": "visa.com" },
+      { "name": "Cisco", "domain": "cisco.com" },
+      { "name": "Google", "domain": "google.com" },
+      { "name": "NHS Scotland", "domain": "scot.nhs.uk" },
+      { "name": "KPMG", "domain": "kpmg.com" },
+      { "name": "Epson", "domain": "epson.com" }
+    ]
+  }
+}
