@@ -1,0 +1,218 @@
+:root {
+  --color-bg: #0a0a0f;
+  --color-bg-raised: #121218;
+  --color-bg-inset: #08080c;
+  --color-pink: #ff00e5;
+  --color-violet: #9d00ff;
+  --color-text: #f4f2f8;
+  --color-text-dim: #a8a4b8;
+  --color-text-faint: #6b6780;
+  --color-border: #2a2836;
+  --font-display: 'Space Grotesk', 'Segoe UI', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace;
+  --cut: 14px;
+  --cut-sm: 8px;
+  --section-max: 1180px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-display);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button, input, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+::selection {
+  background: var(--color-pink);
+  color: #0a0a0f;
+}
+
+/* Layout */
+.section {
+  max-width: var(--section-max);
+  margin: 0 auto;
+  padding: 96px 32px;
+}
+
+.section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--color-pink);
+  margin-bottom: 16px;
+}
+
+.section-label::before {
+  content: '';
+  width: 22px;
+  height: 1px;
+  background: var(--color-pink);
+  box-shadow: 0 0 6px var(--color-pink);
+}
+
+.section-title {
+  font-size: clamp(28px, 4vw, 40px);
+  color: var(--color-text);
+  margin-bottom: 12px;
+}
+
+.section-intro {
+  color: var(--color-text-dim);
+  max-width: 640px;
+  margin-bottom: 48px;
+}
+
+/* Angled/cut-corner surface utility */
+.cut-corners {
+  clip-path: polygon(
+    var(--cut) 0%,
+    100% 0%,
+    100% calc(100% - var(--cut)),
+    calc(100% - var(--cut)) 100%,
+    0% 100%,
+    0% var(--cut)
+  );
+}
+
+.cut-corners-sm {
+  clip-path: polygon(
+    var(--cut-sm) 0%,
+    100% 0%,
+    100% calc(100% - var(--cut-sm)),
+    calc(100% - var(--cut-sm)) 100%,
+    0% 100%,
+    0% var(--cut-sm)
+  );
+}
+
+.panel {
+  background: var(--color-bg-raised);
+  border: 1px solid var(--color-border);
+  position: relative;
+}
+
+.panel::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(255, 0, 229, 0.35), transparent 40%);
+  clip-path: inherit;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.panel:hover::before {
+  opacity: 1;
+}
+
+.glow-text {
+  text-shadow: 0 0 18px rgba(255, 0, 229, 0.55), 0 0 46px rgba(157, 0, 255, 0.35);
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 26px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border: 1px solid var(--color-pink);
+  background: transparent;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.btn:hover {
+  background-color: rgba(255, 0, 229, 0.8);
+  box-shadow: 0 0 10px rgba(255, 0, 229, 0.22);
+}
+
+.btn-solid {
+  background: linear-gradient(120deg, var(--color-pink), var(--color-violet));
+  border: none;
+  color: #0a0a0f;
+  font-weight: 600;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn-solid:hover {
+  filter: brightness(0.8);
+}
+
+.btn-solid:focus {
+  outline: none;
+}
+
+.btn-solid:focus-visible {
+  outline: 2px solid var(--color-pink);
+  outline-offset: 3px;
+}
+
+.btn-solid:active {
+  filter: brightness(0.7);
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(157, 0, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(157, 0, 255, 0.08) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+@media (max-width: 640px) {
+  .section {
+    padding: 64px 20px;
+  }
+}

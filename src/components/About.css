@@ -1,0 +1,53 @@
+.about__grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.about__copy {
+  color: var(--color-text-dim);
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__copy p:first-child {
+  color: var(--color-text);
+}
+
+.about__personal {
+  font-size: 15px;
+  color: var(--color-text-faint);
+}
+
+.about__stats {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about__stat {
+  padding: 22px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.about__stat-value {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--color-pink);
+}
+
+.about__stat-label {
+  font-size: 13px;
+  color: var(--color-text-dim);
+}
+
+@media (max-width: 800px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+  }
+}
