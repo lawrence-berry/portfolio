@@ -31,7 +31,7 @@
 
 .skills__primary-years {
   font-size: 12px;
-  color: var(--color-violet);
+  color: var(--color-violet-text);
   letter-spacing: 0.06em;
 }
 
@@ -63,6 +63,9 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .skills__chip {
@@ -104,6 +107,13 @@
   white-space: nowrap;
 }
 
+.skills__cloud-list {
+  display: contents;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .skills__cloud-tag {
   font-size: 10px;
   color: var(--color-text-faint);
@@ -122,7 +132,7 @@
   }
 
   .skills__cloud {
-    overflow-x: auto;
-    padding-bottom: 4px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }

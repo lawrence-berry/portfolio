@@ -24,7 +24,7 @@ export default function Contact() {
           target="_blank"
           rel="noreferrer"
         >
-          Connect on LinkedIn ↗
+          Connect on LinkedIn ↗<span className="sr-only"> (opens in new tab)</span>
         </a>
       </div>
     </section>

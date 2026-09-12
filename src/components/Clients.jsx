@@ -52,6 +52,7 @@ export default function Clients() {
           >
             <ClientLogo name={client.name} domain={client.domain} size={128} />
             <span className="clients__tile-name mono">{client.name}</span>
+            <span className="sr-only"> (opens in new tab)</span>
           </a>
         ))}
       </div>
@@ -67,6 +68,7 @@ export default function Clients() {
           >
             <ClientLogo name={client.name} domain={client.domain} size={64} />
             <span className="clients__tile-name mono">{client.name}</span>
+            <span className="sr-only"> (opens in new tab)</span>
           </a>
         ))}
       </div>

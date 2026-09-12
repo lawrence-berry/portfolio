@@ -54,7 +54,7 @@
 
 .timeline__type--education {
   border-color: var(--color-violet);
-  color: var(--color-violet);
+  color: var(--color-violet-text);
 }
 
 .timeline__type--personal {
