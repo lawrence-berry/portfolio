@@ -38,6 +38,7 @@
       { "name": "RSpec", "years": "10+", "icon": "rspec" },
       { "name": "Cucumber", "years": "10+", "icon": "cucumber" },
       { "name": "Jest", "years": "3", "icon": "jest" },
+      { "name": "Playwright", "years": "2" },
       { "name": "GitHub Actions", "years": "4", "icon": "githubactions" },
       { "name": "Travis CI", "years": "3", "icon": "travisci" }
     ],
@@ -55,14 +56,17 @@
     {
       "id": "early-years",
       "type": "personal",
-      "date": "1990s",
+      "date": "1990s – 2001",
       "org": "Self-taught",
       "role": "Early years",
       "bullets": [
         "Started coding at age 11.",
-        "Comfortable at the command line (MS-DOS) by age 12.",
+        "Comfortable on the MS-DOS command line by age 12.",
         "Ran Linux on my home system throughout my teens.",
-        "Provided informal IT support for the family business as a teenager, troubleshooting PCs and everyday technical problems."
+        "Provided informal IT support for the family business as a teenager, troubleshooting PCs and everyday technical problems.",
+        "Selected for the Glasgow Select rugby squad (2000).",
+        "Set the school high jump record (2001).",
+        "Won the school Computing Prize (2001)."
       ]
     },
     {
