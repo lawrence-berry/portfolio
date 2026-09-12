@@ -28,7 +28,7 @@ export default function Nav() {
           LB<span className="nav__logo-dot">_</span>
         </a>
 
-        <nav className="nav__links">
+        <nav className="nav__links" aria-label="Primary">
           {LINKS.map((link) => (
             <a key={link.href} href={link.href} className="nav__link mono">
               {link.label}
@@ -43,6 +43,8 @@ export default function Nav() {
         <button
           className="nav__toggle"
           aria-label="Toggle menu"
+          aria-expanded={open}
+          aria-controls="nav-mobile"
           onClick={() => setOpen((v) => !v)}
         >
           <span />
@@ -52,7 +54,7 @@ export default function Nav() {
       </div>
 
       {open && (
-        <nav className="nav__mobile mono">
+        <nav className="nav__mobile mono" id="nav-mobile" aria-label="Mobile">
           {LINKS.map((link) => (
             <a key={link.href} href={link.href} onClick={() => setOpen(false)}>
               {link.label}

@@ -12,6 +12,7 @@ export default function Projects() {
         Client-facing platforms built and maintained via{' '}
         <a href={employers[0].url} target="_blank" rel="noreferrer" className="inline-link">
           {employers[0].name}
+          <span className="sr-only"> (opens in new tab)</span>
         </a>
         .
       </p>
@@ -26,7 +27,7 @@ export default function Projects() {
                 target="_blank"
                 rel="noreferrer"
                 className="projects__visit mono"
-                aria-label={`Visit ${p.name}`}
+                aria-label={`Visit ${p.name} (opens in new tab)`}
               >
                 Visit ↗
               </a>

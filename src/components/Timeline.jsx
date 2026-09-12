@@ -26,6 +26,7 @@ export default function Timeline() {
               {item.orgUrl ? (
                 <a href={item.orgUrl} target="_blank" rel="noreferrer">
                   {item.org}
+                  <span className="sr-only"> (opens in new tab)</span>
                 </a>
               ) : (
                 item.org

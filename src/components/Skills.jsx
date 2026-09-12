@@ -92,11 +92,13 @@ export default function Skills() {
 
       <div className="skills__cloud">
         <span className="skills__cloud-label mono">AWS services —</span>
-        {skills.cloud.map((c) => (
-          <span key={c} className="skills__cloud-tag mono">
-            {c}
-          </span>
-        ))}
+        <ul className="skills__cloud-list">
+          {skills.cloud.map((c) => (
+            <li key={c} className="skills__cloud-tag mono">
+              {c}
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   )
@@ -106,15 +108,15 @@ function SkillGroup({ title, items, centered }) {
   return (
     <div className={`skills__group${centered ? ' skills__group--centered' : ''}`}>
       <h3 className="skills__group-title mono">{title}</h3>
-      <div className="skills__chips">
+      <ul className="skills__chips">
         {items.map((item) => (
-          <span key={item.name} className="skills__chip">
+          <li key={item.name} className="skills__chip">
             <Icon name={item.icon} />
             {item.name}
             {item.years && <span className="skills__chip-years mono">{item.years} yrs</span>}
-          </span>
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
   )
 }
