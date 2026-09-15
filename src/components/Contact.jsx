@@ -1,6 +1,6 @@
 import './Contact.css'
 
-const LINKEDIN_URL = 'https://uk.linkedin.com/in/lawrence-berry-a11790216'
+const CONTACT_EMAIL = 'portfolio.willpower575@passinbox.com'
 
 export default function Contact() {
   return (
@@ -13,18 +13,13 @@ export default function Contact() {
 
       <div className="contact__panel panel cut-corners">
         <p className="contact__panel-label mono">// connect</p>
-        <h3 className="contact__panel-title">Best way to reach me is LinkedIn</h3>
+        <h3 className="contact__panel-title">Best way to reach me is email</h3>
         <p className="contact__panel-copy">
-          No contact details are published on this page — message me there and I'll get back
-          to you.
+          Email me directly and I'll get back to you.
         </p>
-        <a
-          className="btn btn-solid contact__cta"
-          href={LINKEDIN_URL}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Connect on LinkedIn ↗<span className="sr-only"> (opens in new tab)</span>
+        <p className="contact__email mono">{CONTACT_EMAIL}</p>
+        <a className="btn btn-solid contact__cta" href={`mailto:${CONTACT_EMAIL}`}>
+          Send an Email
         </a>
       </div>
     </section>
