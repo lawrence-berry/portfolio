@@ -32,7 +32,8 @@
       { "name": "CloudFormation", "years": "5", "icon": "cloudformation" },
       { "name": "Docker", "years": "5", "icon": "docker" },
       { "name": "Vagrant", "years": "3", "icon": "vagrant" },
-      { "name": "Chef", "years": "3", "icon": "chef" }
+      { "name": "Chef", "years": "3", "icon": "chef" },
+      { "name": "Heroku", "years": "1" }
     ],
     "testing": [
       { "name": "RSpec", "years": "10+", "icon": "rspec" },
