@@ -50,6 +50,14 @@
       { "name": "C", "icon": "c" },
       { "name": "C++", "icon": "cpp" },
       { "name": "Ada", "icon": "ada" }
+    ],
+    "languages": [
+      { "name": "English", "level": "Native" },
+      {
+        "name": "Spanish",
+        "level": "B1 Intermediate",
+        "certUrl": "https://strommeninc.com/cert/6AB1DB8C9EB4C/"
+      }
     ]
   },
   "timeline": [

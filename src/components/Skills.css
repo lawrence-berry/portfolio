@@ -90,6 +90,18 @@
   margin-left: 2px;
 }
 
+.skills__chip-verify {
+  font-size: 11px;
+  color: var(--color-violet-text);
+  margin-left: 4px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.skills__chip-verify:hover {
+  color: var(--color-pink);
+}
+
 .skills__cloud {
   padding-top: 28px;
   border-top: 1px solid var(--color-border);

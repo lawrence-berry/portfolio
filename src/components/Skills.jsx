@@ -88,6 +88,7 @@ export default function Skills() {
         <SkillGroup title="Testing & CI" items={skills.testing} />
         <SkillGroup title="Infrastructure as Code" items={skills.infra} />
         <SkillGroup title="Also familiar with" items={skills.familiar} centered />
+        <LanguageGroup items={skills.languages} />
       </div>
 
       <div className="skills__cloud">
@@ -114,6 +115,33 @@ function SkillGroup({ title, items, centered }) {
             <Icon name={item.icon} />
             {item.name}
             {item.years && <span className="skills__chip-years mono">{item.years} yrs</span>}
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
+function LanguageGroup({ items }) {
+  return (
+    <div className="skills__group skills__group--centered">
+      <h3 className="skills__group-title mono">Languages</h3>
+      <ul className="skills__chips">
+        {items.map((lang) => (
+          <li key={lang.name} className="skills__chip">
+            {lang.name}
+            <span className="skills__chip-years mono">{lang.level}</span>
+            {lang.certUrl && (
+              <a
+                href={lang.certUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="skills__chip-verify mono"
+                aria-label={`Verify ${lang.name} certificate (opens in new tab)`}
+              >
+                Verify ↗
+              </a>
+            )}
           </li>
         ))}
       </ul>
