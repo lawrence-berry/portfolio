@@ -21,7 +21,8 @@
     ],
     "cloud": [
       "EC2", "RDS", "Route53", "ElastiCache", "Lambda", "CloudWatch",
-      "API Gateway", "IAM", "WAF", "Systems Manager", "Secrets Manager", "Incident Manager"
+      "API Gateway", "IAM", "WAF", "Systems Manager", "Secrets Manager", "Incident Manager",
+      "SQS", "SNS"
     ],
     "database": [
       { "name": "MySQL", "years": "10+", "icon": "mysql" },
