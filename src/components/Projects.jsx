@@ -9,12 +9,12 @@ export default function Projects() {
       <p className="section-label">// Projects</p>
       <h2 className="section-title">Selected work</h2>
       <p className="section-intro">
-        Client-facing platforms built and maintained via{' '}
+        Client platforms I built and maintained at{' '}
         <a href={employers[0].url} target="_blank" rel="noreferrer" className="inline-link">
           {employers[0].name}
           <span className="sr-only"> (opens in new tab)</span>
         </a>
-        .
+        , alongside a few personal projects.
       </p>
 
       <div className="projects__grid">
@@ -40,7 +40,9 @@ export default function Projects() {
                 </span>
               ))}
             </div>
-            <span className="projects__employer mono">via {p.employer}</span>
+            <span className="projects__employer mono">
+              {p.employer ? `via ${p.employer}` : 'Personal project'}
+            </span>
           </article>
         ))}
       </div>
