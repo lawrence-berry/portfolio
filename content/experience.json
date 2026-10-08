@@ -171,6 +171,18 @@
       "employer": "Geo.me Solutions",
       "description": "Search tool for locating Bupa Global healthcare facilities worldwide.",
       "stack": ["Ruby on Rails", "Google Maps API", "React.js"]
+    },
+    {
+      "name": "VozLocal",
+      "url": "https://github.com/lawrence-berry/VozLocal",
+      "description": "Learn Rioplatense Spanish where you already spend your day: phrases appear in your terminal and every new Chrome tab, and a WhatsApp bot adds new ones, all kept in sync.",
+      "stack": ["zsh", "Chrome Extension (MV3)", "Cloudflare Workers", "WhatsApp Cloud API"]
+    },
+    {
+      "name": "BelleColleen",
+      "url": "https://lawrence-berry.github.io/bellecolleen/",
+      "description": "An online gallery preserving the paintings of my late mother, Colleen Godley (1951–2011), so her work can still be seen and shared.",
+      "stack": ["Next.js", "TypeScript", "GitHub Pages"]
     }
   ],
   "employers": [
