@@ -112,6 +112,11 @@
   align-items: center;
 }
 
+.skills__cloud + .skills__cloud {
+  padding-top: 12px;
+  border-top: 0;
+}
+
 .skills__cloud-label {
   font-size: 11px;
   color: var(--color-text-faint);

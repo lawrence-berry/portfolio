@@ -101,6 +101,17 @@ export default function Skills() {
           ))}
         </ul>
       </div>
+
+      <div className="skills__cloud">
+        <span className="skills__cloud-label mono">AWS security —</span>
+        <ul className="skills__cloud-list">
+          {skills.cloudSecurity.map((c) => (
+            <li key={c} className="skills__cloud-tag mono">
+              {c}
+            </li>
+          ))}
+        </ul>
+      </div>
     </section>
   )
 }

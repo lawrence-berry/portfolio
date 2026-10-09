@@ -3,8 +3,8 @@
     "name": "Lawrence Berry",
     "location": "Glasgow, UK",
     "role": "Full-Stack Developer",
-    "seeking": "Senior / Staff / Lead — remote only",
-    "summary": "Full-stack web developer with 15+ years' experience delivering Ruby on Rails and JavaScript SaaS products, including 13 years as founding engineer of a geospatial mapping platform. Comfortable across the stack, from AWS infrastructure and CI/CD automation to client-facing delivery. Looking for a senior, staff or lead role owning a product long-term.",
+    "seeking": "Staff / Lead roles in engineering or cybersecurity, remote only",
+    "summary": "Full-stack web developer with 15+ years' experience delivering Ruby on Rails and JavaScript SaaS products, including 13 years as founding engineer of a geospatial mapping platform. Comfortable across the stack, from AWS infrastructure and CI/CD automation to client-facing delivery, and the go-to person for security in every role, from incident response to AWS security hardening. Looking for a staff or lead role in full-stack engineering or cybersecurity.",
     "personal": "Outside of work: tinkering with hardware and software, climbing, travelling, learning new languages, cooking, and teaching my daughter to code."
   },
   "skills": {
@@ -21,8 +21,11 @@
     ],
     "cloud": [
       "EC2", "RDS", "Route53", "ElastiCache", "Lambda", "CloudWatch",
-      "API Gateway", "IAM", "WAF", "Systems Manager", "Secrets Manager", "Incident Manager",
-      "SQS", "SNS"
+      "API Gateway", "Systems Manager", "SQS", "SNS"
+    ],
+    "cloudSecurity": [
+      "IAM Roles", "GuardDuty", "Security Hub", "CloudTrail", "CloudWatch Logs",
+      "WAF", "Shield", "Secrets Manager", "Detective", "Incident Manager"
     ],
     "database": [
       { "name": "MySQL", "years": "10+", "icon": "mysql" },
@@ -88,7 +91,8 @@
       "role": "B.Sc. Software Engineering",
       "bullets": [
         "Selected into the Software Engineering stream, capped at the top 20 students from the wider Computing Science intake.",
-        "Took part in the Peer Assisted Learning (PAL) programme in 2nd year, helping 1st year students get to grips with the course material."
+        "Took part in the Peer Assisted Learning (PAL) programme in 2nd year, helping 1st year students get to grips with the course material.",
+        "Read Bruce Schneier's Applied Cryptography cover to cover at 20, building a deep grounding in cryptography fundamentals."
       ]
     },
     {
@@ -100,6 +104,7 @@
       "role": "Security Analyst (Internship)",
       "bullets": [
         "Secured one of Reuters' 3 annual internship places, reserved for the top 3 students in Glasgow University's 20-place Software Engineering programme — one of the most sought-after placements in the class.",
+        "Worked within Reuters' information security function at its Canary Wharf headquarters.",
         "Built a training-tracking tool solo, deployed company-wide to monitor security-course completion for ISO certification."
       ]
     },
@@ -115,7 +120,8 @@
         "Delivered 100+ client projects for financial institutions, stock market index providers, and other blue-chip companies.",
         "Recruited a 4-person development team, supporting growth in interviewer capacity from 12 to 120 seats.",
         "Built a Rails/MySQL CATI platform, powering the 10x growth in interview capacity.",
-        "Acted as primary client and management technical liaison, handling queries and demonstrating platform capabilities."
+        "Acted as primary client and management technical liaison, handling queries and demonstrating platform capabilities.",
+        "First port of call for any security concern across the business."
       ]
     },
     {
@@ -131,7 +137,9 @@
         "Led a 3-person development team, shipping concurrent client projects over the platform's 13-year lifecycle.",
         "Turned single-project clients Shell and BP into 10+ year multi-project accounts, alongside long-term clients BT and BUPA.",
         "Cut deployment time in half using AWS automation, reducing deployment issues by roughly 80%.",
-        "Migrated legacy Rails views to dedicated React.js frontends, decoupling the UI layer from the backend."
+        "Migrated legacy Rails views to dedicated React.js frontends, decoupling the UI layer from the backend.",
+        "Go-to person for all security questions, and led incident response for potential security compromises.",
+        "Worked with the Head of Infrastructure to implement recommendations from the AWS Well-Architected Framework's Security Pillar."
       ]
     },
     {
