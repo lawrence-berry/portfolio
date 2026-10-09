@@ -8,7 +8,7 @@ export default function Contact() {
       <p className="section-label">// Contact</p>
       <h2 className="section-title">Let's talk</h2>
       <p className="section-intro">
-        Open to senior, staff and lead full-stack or cybersecurity roles — remote only.
+        Open to staff and lead roles in full-stack engineering or cybersecurity — remote only.
       </p>
 
       <div className="contact__panel panel cut-corners">
