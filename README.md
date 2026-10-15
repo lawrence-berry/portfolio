@@ -24,7 +24,7 @@ timeline, projects, or client lists without touching component code.
 
 ## Deploy
 
-Not yet wired up. To publish to GitHub Pages as a project page:
+To publish to GitHub Pages as a project page:
 
 1. Push this repo to GitHub as `portfolio` (so it serves at `<username>.github.io/portfolio`).
 2. Add a `gh-pages` deploy step (e.g. the `gh-pages` npm package, or a GitHub Actions workflow)
