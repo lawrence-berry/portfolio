@@ -1,3 +1,5 @@
+<p align="center"><img src="public/favicon.svg" alt="Portfolio icon" width="128" height="128"></p>
+
 # Portfolio
 
 Single-page portfolio site — React + Vite, deployed to GitHub Pages as a project page.
