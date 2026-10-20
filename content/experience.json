@@ -10,7 +10,7 @@
   "skills": {
     "primary": [
       { "name": "Ruby", "years": "10+", "icon": "ruby" },
-      { "name": "Rails", "years": "10+", "icon": "rails" },
+      { "name": "Rails", "years": "15+", "icon": "rails" },
       { "name": "JavaScript", "years": "10+", "icon": "javascript" },
       { "name": "AWS", "years": "10+", "icon": "aws" }
     ],
@@ -127,7 +127,7 @@
     {
       "id": "geome",
       "type": "work",
-      "date": "Feb 2012 – Aug 2025",
+      "date": "Feb 2012 – Nov 2025",
       "org": "Geo.me Solutions",
       "orgUrl": "https://geo.me/",
       "role": "Lead Developer",
@@ -145,7 +145,7 @@
     {
       "id": "sabbatical",
       "type": "personal",
-      "date": "Sep 2025 – Present",
+      "date": "Dec 2025 – Present",
       "org": "Career Break",
       "role": "Sabbatical",
       "bullets": []
