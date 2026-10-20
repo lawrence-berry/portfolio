@@ -37,7 +37,7 @@ export default function Clients() {
       <p className="section-label">// Clients</p>
       <h2 className="section-title">Trusted by teams at</h2>
       <p className="section-intro">
-        Accounts delivered over 13+ years across geo.me and Pexel — long-term multi-project
+        Accounts delivered over 13+ years across geo.me and Pexel: long-term multi-project
         accounts and annual recurring engagements are marked first.
       </p>
 

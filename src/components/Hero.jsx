@@ -14,7 +14,7 @@ export default function Hero() {
         </h1>
 
         <p className="hero__role mono">
-          {profile.role} — {profile.seeking}
+          {profile.role} - {profile.seeking}
         </p>
 
         <p className="hero__summary">{profile.summary}</p>

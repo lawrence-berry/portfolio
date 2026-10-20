@@ -103,7 +103,7 @@
       "orgUrl": "https://www.reuters.com/",
       "role": "Security Analyst (Internship)",
       "bullets": [
-        "Secured one of Reuters' 3 annual internship places, reserved for the top 3 students in Glasgow University's 20-place Software Engineering programme — one of the most sought-after placements in the class.",
+        "Secured one of Reuters' 3 annual internship places, reserved for the top 3 students in Glasgow University's 20-place Software Engineering programme, one of the most sought-after placements in the class.",
         "Worked within Reuters' information security function at its Canary Wharf headquarters.",
         "Built a training-tracking tool solo, deployed company-wide to monitor security-course completion for ISO certification."
       ]
@@ -156,7 +156,7 @@
       "name": "Shell Fuel Station Finder",
       "url": "https://find.shell.com/",
       "employer": "Geo.me Solutions",
-      "description": "Global Shell station locator — search, filtering and mapping across Shell's international network.",
+      "description": "Global Shell station locator: search, filtering and mapping across Shell's international network.",
       "stack": ["Ruby on Rails", "Google Maps API", "React.js"]
     },
     {

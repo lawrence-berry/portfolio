@@ -66,7 +66,7 @@ export default function Skills() {
       <p className="section-label">// Skills</p>
       <h2 className="section-title">Primary stack, and everything around it.</h2>
       <p className="section-intro">
-        Years shown reflect what's tracked explicitly on my CV, and everything else is
+        Years shown reflect what's tracked explicitly on my CV. Everything else is
         listed by proficiency, not guessed at.
       </p>
 
@@ -92,7 +92,7 @@ export default function Skills() {
       </div>
 
       <div className="skills__cloud">
-        <span className="skills__cloud-label mono">AWS services —</span>
+        <span className="skills__cloud-label mono">AWS services:</span>
         <ul className="skills__cloud-list">
           {skills.cloud.map((c) => (
             <li key={c} className="skills__cloud-tag mono">
@@ -103,7 +103,7 @@ export default function Skills() {
       </div>
 
       <div className="skills__cloud">
-        <span className="skills__cloud-label mono">AWS security —</span>
+        <span className="skills__cloud-label mono">AWS security:</span>
         <ul className="skills__cloud-list">
           {skills.cloudSecurity.map((c) => (
             <li key={c} className="skills__cloud-tag mono">
