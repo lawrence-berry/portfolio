@@ -2,7 +2,7 @@ import experience from '../../content/experience.json'
 import './About.css'
 
 const STATS = [
-  { value: '15+', label: 'Years building SaaS products' },
+  { value: '17', label: 'Years building web software' },
   { value: '13', label: 'Years as founding engineer' },
   { value: '40', label: 'Concurrent client projects at peak' },
 ]

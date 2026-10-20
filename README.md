@@ -2,7 +2,7 @@
 
 # Portfolio
 
-Single-page portfolio site — React + Vite, deployed to GitHub Pages as a project page.
+Single-page portfolio site - React + Vite, deployed to GitHub Pages as a project page.
 
 ## Develop
 
@@ -21,7 +21,7 @@ Outputs to `dist/`, with all asset paths prefixed for `/portfolio/` (set via `ba
 
 ## Content
 
-Structured CV/experience data lives in `content/experience.json` — edit that file to update skills,
+Structured CV/experience data lives in `content/experience.json` - edit that file to update skills,
 timeline, projects, or client lists without touching component code.
 
 ## Deploy

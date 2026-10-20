@@ -47,7 +47,7 @@
   margin-bottom: 18px;
 }
 
-/* Signature glitch moment — restrained, periodic rather than constant */
+/* Signature glitch moment - restrained, periodic rather than constant */
 .glitch::before,
 .glitch::after {
   content: attr(data-text);

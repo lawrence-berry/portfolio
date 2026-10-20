@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Lawrence Berry",
-    "location": "Glasgow, UK",
+    "location": "Buenos Aires, Argentina",
     "role": "Full-Stack Developer",
     "seeking": "Staff / Lead roles in engineering or cybersecurity, remote only",
     "summary": "Full-stack web developer with 15+ years' experience delivering Ruby on Rails and JavaScript SaaS products, including 13 years as founding engineer of a geospatial mapping platform. Comfortable across the stack, from AWS infrastructure and CI/CD automation to client-facing delivery, and the go-to person for security in every role, from incident response to AWS security hardening. Looking for a staff or lead role in full-stack engineering or cybersecurity.",
@@ -10,7 +10,7 @@
   "skills": {
     "primary": [
       { "name": "Ruby", "years": "10+", "icon": "ruby" },
-      { "name": "Rails", "years": "10+", "icon": "rails" },
+      { "name": "Rails", "years": "15+", "icon": "rails" },
       { "name": "JavaScript", "years": "10+", "icon": "javascript" },
       { "name": "AWS", "years": "10+", "icon": "aws" }
     ],
@@ -103,7 +103,7 @@
       "orgUrl": "https://www.reuters.com/",
       "role": "Security Analyst (Internship)",
       "bullets": [
-        "Secured one of Reuters' 3 annual internship places, reserved for the top 3 students in Glasgow University's 20-place Software Engineering programme — one of the most sought-after placements in the class.",
+        "Secured one of Reuters' 3 annual internship places, reserved for the top 3 students in Glasgow University's 20-place Software Engineering programme, one of the most sought-after placements in the class.",
         "Worked within Reuters' information security function at its Canary Wharf headquarters.",
         "Built a training-tracking tool solo, deployed company-wide to monitor security-course completion for ISO certification."
       ]
@@ -127,7 +127,7 @@
     {
       "id": "geome",
       "type": "work",
-      "date": "Feb 2012 – Aug 2025",
+      "date": "Feb 2012 – Nov 2025",
       "org": "Geo.me Solutions",
       "orgUrl": "https://geo.me/",
       "role": "Lead Developer",
@@ -145,7 +145,7 @@
     {
       "id": "sabbatical",
       "type": "personal",
-      "date": "Sep 2025 – Present",
+      "date": "Dec 2025 – Present",
       "org": "Career Break",
       "role": "Sabbatical",
       "bullets": []
@@ -156,7 +156,7 @@
       "name": "Shell Fuel Station Finder",
       "url": "https://find.shell.com/",
       "employer": "Geo.me Solutions",
-      "description": "Global Shell station locator — search, filtering and mapping across Shell's international network.",
+      "description": "Global Shell station locator: search, filtering and mapping across Shell's international network.",
       "stack": ["Ruby on Rails", "Google Maps API", "React.js"]
     },
     {
