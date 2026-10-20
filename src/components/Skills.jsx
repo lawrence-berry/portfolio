@@ -66,7 +66,7 @@ export default function Skills() {
       <p className="section-label">// Skills</p>
       <h2 className="section-title">Primary stack, and everything around it.</h2>
       <p className="section-intro">
-        Years shown reflect what's tracked explicitly on my CV — everything else is
+        Years shown reflect what's tracked explicitly on my CV, and everything else is
         listed by proficiency, not guessed at.
       </p>
 
